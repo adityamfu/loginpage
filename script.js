@@ -127,7 +127,7 @@ function check(form) {
   if (form.username.value && form.password.value && form.kpassword.value.length > 7) {
     alert('Login Sukses');
     var username = document.getElementById('username').value;
-    document.write('Selamat Datang ' + username).id = 'jstext';
+    document.write('Selamat Datang ' + username + ', Refresh untuk kembali.').id = '#jstext';
   } else {
     alert('Error Password or Username\n\nUsername minimal 9 huruf!');
   }
